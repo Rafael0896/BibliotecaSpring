@@ -37,4 +37,8 @@ public class LibroService {
     public List<Libro> findByAutor(String autor) {
         return libroRepository.findByAutorContaining(autor);
     }
+    //agreagar metodo eliminar libro por id
+    public void delete(Long id) {
+        libroRepository.deleteById(id);
+    }
 }

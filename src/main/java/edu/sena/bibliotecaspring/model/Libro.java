@@ -9,6 +9,8 @@ public class Libro extends ElementoBiblioteca {
     private String isbn;
     private int numeroPaginas;
 
+
+    //Constructores
     public Libro() {
     }
 
@@ -18,7 +20,7 @@ public class Libro extends ElementoBiblioteca {
         this.isbn = isbn;
         this.numeroPaginas = numeroPaginas;
     }
-
+    //Métodos Getter y Setter
     public String getAutor() {
         return autor;
     }
